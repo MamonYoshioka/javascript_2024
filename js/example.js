@@ -1,0 +1,1 @@
+document.write("<p class='example'>この行はJavascripで書かれています</p>");

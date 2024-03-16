@@ -1,11 +1,20 @@
 $primary-color: #c33a3a;
+$example-color: #3a65c3;
 
 body {
   background-color: #b4e7dd;
-  color: $primary-color;
+  p {
+    &.greet {
+      color: $primary-color;
+    }
+    &.example {
+      color: $example-color;
+    }
+  }
 }
 
 h1 {
   color: black;
   font-size: 20px;
 }
+

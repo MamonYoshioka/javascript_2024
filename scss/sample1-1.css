@@ -1,6 +1,11 @@
 body {
   background-color: #b4e7dd;
+}
+body p.greet {
   color: #c33a3a;
+}
+body p.example {
+  color: #3a65c3;
 }
 
 h1 {
