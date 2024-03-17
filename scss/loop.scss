@@ -1,0 +1,30 @@
+$title-color : #3D1931;
+$sample-color: #b66a2c;
+$example-color: red;
+$zero-color: #2EFCFF;
+$amber: #ffca28;
+
+body{
+    background-color: #40C7D2;
+}
+h2 {
+    color: $title-color;
+    font-size: 18px;
+}
+div{
+    &.sample{
+        color: $sample-color;
+        font-weight: bold;
+    }
+    &.zero{
+        color: $zero-color;
+        font-family: 'Courier New', Courier, monospace;
+        font-weight: 800;
+    }
+}
+
+p {
+    &.example_3{
+        color: $example-color;
+    }
+}

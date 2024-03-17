@@ -1,0 +1,22 @@
+body {
+  background-color: #40C7D2;
+}
+
+h2 {
+  color: #3D1931;
+  font-size: 18px;
+}
+
+div.sample {
+  color: #b66a2c;
+  font-weight: bold;
+}
+div.zero {
+  color: #2EFCFF;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 800;
+}
+
+p.example_3 {
+  color: red;
+}/*# sourceMappingURL=loop.css.map */
