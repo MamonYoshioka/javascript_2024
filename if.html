@@ -22,5 +22,36 @@
     </button>
     <div id="result_Area"></div>
     <script src="js/switch.js"></script>
+    <br>
+
+    <!-- 論理和・論理・ネスト構造 -->
+    <script>
+        const n1 = 3.14
+        const n2 = 3.14159
+        document.write("<div class='sample'>n1 :" + n1 + "</div>");
+        document.write("<div class='sample'>n2 :" + n2 + "</div>");
+        
+        // 論理和
+        // if (n1 === 3.14 || n2 === 3.14) {
+        //     document.write("<div class='sample'> n1 or n2 is \"3.14\" </div>");
+        // } else {
+        //     document.write("<div calss='sample'> Neither n1 nor n2 is  \"3.14\" </div>");
+        // }
+
+        // 論理積
+        if (n1 === 3.14 && n2 === 3.14) {
+            document.write("<div class='sample'> n1 or n2 is \"3.14\" </div>");
+        } else {
+            document.write("<div calss='sample'> Neither n1 nor n2 is  \"3.14\" </div>");
+        }
+        // ネスト構造
+        s1 = "Java"
+        s2 = "Script"
+        if (s1 === "Java") {
+            if (s2 === "Script") {
+                document.write("I love Javascript");
+            }
+        }
+    </script>
 </body>
 </html>
