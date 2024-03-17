@@ -1,8 +1,20 @@
 $title-color : #e8e0e0;
-
+$sample-color: #CCFF41;
+$zero-color: #2EFCFF;
 body{
     background-color: cadetblue;
 }
 h2 {
     color: $title-color;
+}
+div{
+    &.sample{
+        color: $sample-color;
+        font-weight: bold;
+    }
+    &.zero{
+        color: $zero-color;
+        font-family: 'Courier New', Courier, monospace;
+        font-weight: 800;
+    }
 }
