@@ -1,0 +1,9 @@
+@mixin base {
+    background-color: bisque;
+    font-size: 20px;
+    color: #2d9ebb;
+}
+
+body {
+    @include base;
+}
