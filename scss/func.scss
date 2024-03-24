@@ -1,8 +1,9 @@
  $bg_color: #feffe4;
- @mixin base {
+ @mixin box {
     background-color: cadetblue;
     color: azure;
  }
+
 
  body {
     background-color: $bg_color;
@@ -13,5 +14,16 @@
  }
 
  .box {
-    @include base;
+    @include box;
+ }
+
+ .box_2 {
+   @include box;
+ }
+
+ .box_3 {
+   @include box;
+ }
+ .box_4 {
+   @include box;
  }
