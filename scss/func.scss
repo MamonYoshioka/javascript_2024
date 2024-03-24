@@ -1,0 +1,17 @@
+ $bg_color: #feffe4;
+ @mixin base {
+    background-color: cadetblue;
+    color: azure;
+ }
+
+ body {
+    background-color: $bg_color;
+ }
+ h2 {
+    font-size: 18px;
+
+ }
+
+ .box {
+    @include base;
+ }
