@@ -1,0 +1,14 @@
+$bg_color: #A684AA;
+$font_color: #fff;
+
+@mixin base{
+    width: 100%; 
+}
+body{
+    @include base;
+    background-color: $bg_color;
+    color: $font_color;
+    h2{
+        font-size: 18px;
+    }
+}
