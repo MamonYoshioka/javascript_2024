@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <h2 style="font-size: 18px; text-align: center;">フォームサンプル</h2>
+    <form method="GET" action="form.html" id="genderForm">
+        <label for="name">名前:</label><br>
+        <input type="text" id="name" name="name" placeholder="例）山田太郎"><br><br>
+        
+        <label>性別:</label><br>
+        <input type="radio" id="male" name="gender" value="male" checked="checked">男性
+        <input type="radio" id="female" name="gender" value="female">女性
+        <input type="radio" id="female" name="gender" value="other">その他
+        <br><br>
+        
+        <input type="submit" value="送信">
+    </form>
+</body>
+</html>
