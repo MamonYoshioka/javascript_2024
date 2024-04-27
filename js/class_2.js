@@ -4,7 +4,7 @@ class Person {
         this.age = age;
     }
     information(){ 
-        return `Name: ${this.name}. Age:${this.age}.`
+        return `Name: ${this.name}. Age:${this.age}.`;
     } 
 }
 
@@ -14,7 +14,7 @@ class Students extends Person {
         this.grade = grade;
     }
     information(){
-        return super.information() + `Grade:${this.grade}`
+        return super.information() + `Grade:${this.grade}`;
     }
 
 }
