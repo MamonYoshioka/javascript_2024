@@ -14,7 +14,7 @@ class Students extends Person {
         this.grade = grade;
     }
     information(){
-        return super.information() + `Grade:${this.grade}`;
+        return super.information() + ` Grade:${this.grade}`;
     }
 
 }
